@@ -1,59 +1,130 @@
-# Sharana Basava – DevOps Portfolio
+# Digvijay Thorat – Cloud & DevOps Portfolio
 
-This is my personal DevOps portfolio website showcasing my skills, projects, and tools used in modern DevOps practices.
+Welcome to my personal Cloud & DevOps portfolio. This portfolio showcases my technical skills, hands-on projects, and experience with modern DevOps tools and cloud technologies.
 
-## Live Website
-GitHub Pages:
-https://sharanabasava-dev.github.io/sharana-portfolio/
+## 🌐 Live Website
 
-AWS EC2 Deployment:
-http://3.110.186.29
+**GitHub Pages:**
+https://your-github-pages-link
 
----
-
-## DevOps Tools & Technologies Used
-
-- Git & GitHub – Source code management
-- GitHub Actions – CI/CD pipeline automation
-- Docker – Containerization of the portfolio website
-- AWS EC2 – Cloud server hosting
-- Nginx – Web server for serving the website
-- GitHub Pages – Static website hosting
-- Google Search Console – SEO and indexing
-- Linux – Server environment
+**AWS EC2 Deployment:**
+http://your-ec2-public-ip
 
 ---
 
-## CI/CD Workflow
+## 🚀 About Me
+
+Hi, I'm **Digvijay Thorat**, a Cloud & DevOps enthusiast currently pursuing my **Master of Computer Science (MCS)** at Bharati Vidyapeeth, Pune.
+
+I enjoy building scalable applications, automating deployments, and working with cloud infrastructure using AWS and modern DevOps tools.
+
+---
+
+## 🛠️ DevOps Tools & Technologies
+
+* Linux
+* Git & GitHub
+* GitHub Actions (CI/CD)
+* Docker
+* Docker Compose
+* Kubernetes
+* Terraform
+* AWS (EC2, S3, IAM, VPC)
+* Nginx
+* Bash Scripting
+* YAML
+* Node.js
+* React
+* MongoDB
+* PostgreSQL
+
+---
+
+## ⚙️ CI/CD Workflow
 
 1. Developer pushes code to GitHub.
-2. GitHub Actions CI/CD pipeline is triggered.
-3. The pipeline connects to AWS EC2 via SSH.
-4. Docker image is built on the EC2 instance.
-5. A Docker container runs the Nginx web server.
-6. The portfolio website becomes live on AWS.
+2. GitHub Actions workflow is triggered automatically.
+3. The workflow connects to the AWS EC2 instance using SSH.
+4. The latest source code is pulled from GitHub.
+5. Docker image is built on the EC2 server.
+6. Existing container is stopped and removed.
+7. A new Docker container is started with Nginx.
+8. The updated portfolio website is deployed automatically.
 
 ---
 
-## Architecture
+## ☁️ Architecture
 
-Developer  
-↓  
-GitHub Repository  
-↓  
-GitHub Actions CI/CD  
-↓  
-AWS EC2 Server  
-↓  
-Docker Container (Nginx)  
-↓  
+Developer
+
+↓
+
+GitHub Repository
+
+↓
+
+GitHub Actions
+
+↓
+
+AWS EC2
+
+↓
+
+Docker Container
+
+↓
+
+Nginx Web Server
+
+↓
+
 Portfolio Website
 
 ---
 
-## Author
+## 💼 Featured Projects
 
-Sharana Basava  
-DevOps Engineer
+### Student Feedback System
 
-Skills: AWS | Docker | Kubernetes | Terraform | Jenkins | CI/CD | Linux
+* Containerized using Docker
+* Kubernetes deployment with ConfigMaps and Secrets
+* Automated CI/CD using GitHub Actions
+* Hosted on AWS
+
+### Modern Todo Application
+
+* Node.js & PostgreSQL
+* Docker & Kubernetes
+* GitHub Actions CI/CD
+* AWS Deployment
+
+### Static Portfolio Website
+
+* Responsive design
+* Dockerized using Nginx
+* GitHub Pages deployment
+* AWS EC2 hosting
+
+---
+
+## 📫 Connect With Me
+
+**Name:** Digvijay Thorat
+
+**GitHub:** https://github.com/digvijay0804
+
+**LinkedIn:** https://www.linkedin.com/in/digvijay-thorat
+
+**Email:** digvijaythorat855@gmail.com
+
+---
+
+## ⭐ Skills
+
+AWS • Docker • Kubernetes • Terraform • Git • GitHub • GitHub Actions • Linux • Bash • Docker Compose • Nginx • CI/CD • Node.js • React • MongoDB • PostgreSQL
+
+---
+
+© 2026 Digvijay Thorat. All Rights Reserved.
+# Digvijay-portfolio
