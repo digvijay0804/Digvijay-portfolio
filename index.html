@@ -5,18 +5,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="qP1b6esr26EQ65zoY6-LtVQFQ6982XlpImzym-013mc" />
-<title>Sharana Basava | DevOps Engineer Portfolio</title>
+<title>Digvijay Thorat | Cloud & DevOps Engineer Portfolio</title>
 
-<meta name="description" content="Sharana Basava DevOps Engineer portfolio showcasing AWS, Docker, Kubernetes, Terraform, Jenkins CI/CD projects.">
+<meta name="description" content="Digvijay Thorat DevOps Engineer portfolio showcasing AWS, Docker, Kubernetes, Terraform, Jenkins CI/CD projects.">
 
-<meta name="keywords" content="Sharana Basava, DevOps Engineer, AWS DevOps, Kubernetes, Terraform, Jenkins, DevOps Portfolio">
+<meta name="keywords" content="Digvijay Thorat, DevOps Engineer, AWS DevOps, Kubernetes, Terraform, Jenkins, DevOps Portfolio">
 
-<meta name="author" content="Sharana Basava">
+<meta name="author" content="Digvijay Thorat">
 
-<meta property="og:title" content="Sharana Basava | DevOps Engineer Portfolio">
+<meta property="og:title" content="Digvijay Thorat | DevOps Engineer Portfolio">
 <meta property="og:description" content="DevOps Engineer portfolio with AWS, Docker, Kubernetes and CI/CD projects.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://sharanabasava-dev.github.io/sharana-portfolio/">
+<meta property="og:url" content="https://github.com/digvijay0804/">
 
 <link rel="stylesheet" href="index.css">
 
@@ -27,7 +27,7 @@
 
 <script>
 (function(){
-emailjs.init("mq2MMmlmZrEyMf7QV");
+emailjs.init("1U7qlq5KO12UTu5nV");
 })();
 
 document.getElementById("contact-form")
@@ -36,47 +36,48 @@ document.getElementById("contact-form")
 event.preventDefault();
 
 emailjs.sendForm(
-"service_kasp2bd",
-"template_02s3741",
+"service_bxstyoi",
+"template_f87tuv9",
 this
 ).then(function(){
 alert("Message sent successfully!");
 }, function(error){
-alert("Failed to send message");
+alert("Failed to send message!");
 });
 });
 </script> 
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
 <script>
-(function(){
-emailjs.init("mq2MMmlmZrEyMf7QV");
+(function () {
+    emailjs.init("1U7qlq5KO12UTu5nV");
 })();
 
-window.onload = function(){
+window.onload = function () {
 
-document.getElementById("contact-form")
-.addEventListener("submit", function(event){
+    document.getElementById("contact-form")
+    .addEventListener("submit", function (event) {
 
-event.preventDefault();
+        event.preventDefault();
 
-emailjs.sendForm(
-"service_kasp2bd",
-"template_02s3741",
-this
-).then(function(){
+        emailjs.sendForm(
+            "service_bxstyoi",
+            "template_f87tuv9",
+            this
+        ).then(function () {
 
-alert("Message sent successfully!");
+            alert("Message sent successfully!");
 
-}, function(error){
+        }, function (error) {
 
-alert("Failed to send message");
+            console.log(error);
+            alert("Failed to send message!!");
 
-});
+        });
 
-});
+    });
 
-}
+};
 </script>
 
 </body>
@@ -96,12 +97,12 @@ alert("Failed to send message");
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                 </nav>
                 <div class="header-text">
-     <p>DevOps Engineer</p>
+     <p>Cloud and DevOps Engineer</p>
 
 <h1>
 AWS | Docker | Kubernetes <br>
-Jenkins | GitHub Actions <br>
-Terraform | Ansible | Linux
+Bash Scripting | GitHub Actions <br>
+Terraform | Git And GitHub | Linux
 </h1>
 <div class="tools">
     <img src="images/New images/icons8-aws-50.png">
@@ -123,52 +124,44 @@ Terraform | Ansible | Linux
         <div class="row">
 
             <div class="about-col-1">
-                <img src="images/Sharana basava.jpg">
+                <img src="images/Digvijay Thorat.jpg">
             </div>
 
             <div class="about-col-2">
                 <h1 class="sub-tittle">About Me</h1>
 
                 <p>
-                Hello! I'm <b>Sharanabasava</b>, a DevOps Engineer from Raichur, India. 
-                I have <b> experience in IT industry</b> specializing in 
-                cloud infrastructure, CI/CD pipelines, containerization, and automation.
-                I am passionate about building scalable cloud systems and improving 
-                deployment workflows using modern DevOps tools.
-                </p>
+                Hello! I'm <b>Digvijay Thorat</b>, currently pursuing my Master of Computer Science (MCS) at Bharati Vidyapeeth, Pune.
+
+                I am passionate about Cloud Computing and DevOps with hands-on experience in AWS, Docker, Kubernetes, GitHub Actions, Terraform, Linux and CI/CD pipelines.
+
+                I enjoy building scalable cloud infrastructure, automating deployments and solving real-world DevOps challenges through practical projects.
+                 </p> 
 
                 <div class="tab-tittle">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
                     <p class="tab-links" onclick="opentab('education')">Education</p>
                 </div>
 
-                <!-- Skills -->
+                <!-- Technical Skills -->
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
-                        <li><span>Cloud Platforms</span><br>AWS, Azure</li>
-                        <li><span>DevOps Tools</span><br>Docker, Kubernetes, Jenkins, GitHub Actions</li>
-                        <li><span>Infrastructure as Code</span><br>Terraform, Ansible</li>
+                        <li><span>Cloud Platforms</span><br>AWS(EC2, S3, VPC, IAM, RDS, CloudFront, Route53, Lambda)</li>
+                        <li><span>Containers & Orchestration</span><br>Docker, Kubernetes</li>
+                        <li><span>Infrastructure as Code</span><br>Terraform, Cloud Formation</li>
                         <li><span>Monitoring</span><br>Prometheus, Grafana</li>
                         <li><span>Operating Systems</span><br>Linux</li>
-                    </ul>
-                </div>
-
-                <!-- Experience -->
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>Present</span><br>Cloud DevOps Engineer at ITC INFOTECH INDIA PRIVATE LIMITED (Client: Mphasis)</li>
-                        <li><span>Projects</span><br>HSBC, Levi Strauss, Allied Irish Bank</li>
-                        <li><span>Role</span><br>DevOps Engineer</li>
+                        <li><span>Scripting</span><br>Bash Scripting</li>
+                        <li><span>CI/CD</span><br>GitHub Actions</li>
+                        <li><span>Version Control System</span><br>Git And GitHub </li>
                     </ul>
                 </div>
 
                 <!-- Education -->
                 <div class="tab-contents" id="education">
                     <ul>
-                        <li><span>Bachelor of Computer Application (Computer Science)</span><br>Tumkur University</li>
-                        <li><span>PUC</span><br>Morarji Desai Science PU College,Raichur</li>
-                        <li><span>SSLC</span><br>Navachetana Kannada High School,Raichur</li>
+                        <li><span>Master of Computer Science (Pursuing)</span><br>Bharati Vidyapeeth University, Pune</li>
+                        <li><span>Bachelor of Computer Science</span><br>Shivaji University Kolhapur</li>
                     </ul>
                 </div>
 
@@ -181,49 +174,49 @@ Terraform | Ansible | Linux
 
 <div id="services">
     <div class="container">
-        <h1 class="sub-tittle">My DevOps Services</h1>
+        <h1 class="sub-tittle">My Cloud & DevOps Services</h1>
 
         <div class="services-list">
 
             <!-- CI/CD -->
             <div>
                 <i class="fa-solid fa-gears"></i>
-                <h2>CI/CD Pipeline</h2>
+                <h2>CI/CD Automation</h2>
                 <p>
-                Implemented automated CI/CD pipelines using Jenkins, GitHub Actions
-                and Docker to build, test and deploy applications.
+                    Build and automate CI/CD pipelines using GitHub Actions, Docker, and Linux
+                    to streamline application build, testing, and deployment.
                 </p>
 
-                <a href="https://github.com/sharanabasava-dev" target="_blank">
-                View Project
+                <a href="https://github.com/digvijay0804" target="_blank">
+                    View Project
                 </a>
             </div>
 
-            <!-- Kubernetes -->
+            <!-- Docker & Kubernetes -->
             <div>
                 <i class="fa-brands fa-docker"></i>
-                <h2>Containerization & Kubernetes</h2>
+                <h2>Docker & Kubernetes</h2>
                 <p>
-                Built Docker images and deployed applications into Kubernetes clusters
-                with load balancing and auto scaling.
+                    Containerize applications with Docker and deploy them on Kubernetes
+                    with scalable, reliable, and production-ready configurations.
                 </p>
 
-                <a href="https://github.com/sharanabasava-dev" target="_blank">
-                View Project
+                <a href="https://github.com/digvijay0804" target="_blank">
+                    View Project
                 </a>
             </div>
 
-            <!-- Cloud -->
+            <!-- AWS -->
             <div>
                 <i class="fa-solid fa-cloud"></i>
-                <h2>Cloud Infrastructure</h2>
+                <h2>AWS Cloud Infrastructure</h2>
                 <p>
-                Designed scalable cloud infrastructure using AWS services like
-                EC2, S3, IAM, VPC, Load Balancer and EKS.
+                    Deploy and manage cloud infrastructure using AWS services such as
+                    EC2, S3, IAM, VPC, and Nginx for secure and scalable hosting.
                 </p>
 
-                <a href="https://github.com/sharanabasava-dev" target="_blank">
-                View Project
+                <a href="https://github.com/digvijay0804" target="_blank">
+                    View Project
                 </a>
             </div>
 
@@ -236,7 +229,7 @@ Terraform | Ansible | Linux
 
 <div id="portfolio">
     <div class="container">
-        <h1 class="sub-tittle">My DevOps Projects</h1>
+        <h1 class="sub-tittle">My Cloud & DevOps Projects</h1>
 
         <div class="work-list">
 
@@ -244,13 +237,14 @@ Terraform | Ansible | Linux
             <div class="work">
                 <img src="images/work-1.png">
                 <div class="layer">
-                    <h3>CI/CD Project</h3>
+                    <h3>Student Feedback System</h3>
                     <p>
-                    Automated CI/CD pipeline using GitHub, Jenkins and Docker
-                    for building and deploying applications.
+                    Built a full-stack Student Feedback System using Docker,
+                    Kubernetes, MongoDB, and GitHub Actions. Automated CI/CD
+                    pipeline and deployed the application on AWS EC2.
                     </p>
 
-                    <a href="https://github.com/sharanabasava-dev/cicd-project" target="_blank">
+                    <a href="https://github.com/digvijay0804/student-feedback-system" target="_blank">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </div>
@@ -260,13 +254,14 @@ Terraform | Ansible | Linux
             <div class="work">
                 <img src="images/work-2.png">
                 <div class="layer">
-                    <h3>DevOps CI/CD Pipeline</h3>
+                    <h3>Modern Todo Application</h3>
                     <p>
-                    Complete DevOps pipeline with GitHub, Jenkins, Docker and
-                    automated deployment workflow.
+                    Developed a containerized Todo application using Node.js,
+                    PostgreSQL, Docker, Kubernetes, and GitHub Actions with
+                    automated deployment on AWS.
                     </p>
 
-                    <a href="https://github.com/sharanabasava-dev/devops-cicd-pipeline" target="_blank">
+                    <a href="https://github.com/digvijay0804/modern-todo-app" target="_blank">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </div>
@@ -276,13 +271,13 @@ Terraform | Ansible | Linux
             <div class="work">
                 <img src="images/work-3.png">
                 <div class="layer">
-                    <h3>Flask DevOps EKS Deployment</h3>
+                    <h3>tic-tac-toe-game</h3>
                     <p>
-                    Containerized Flask application deployed on AWS EKS using
-                    Docker, Kubernetes and DevOps automation.
+                    Developed a responsive Tic Tac Toe web application using Containerized the application with 
+                    Docker and automated deployment using GitHub Actions for seamless CI/CD.
                     </p>
 
-                    <a href="https://github.com/sharanabasava-dev/python-flask-devops-eks" target="_blank">
+                    <a href="https://github.com/digvijay0804/tic-tac-toe-game" target="_blank">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </div>
@@ -302,20 +297,33 @@ Terraform | Ansible | Linux
             <div class="contact-left">
                 <h1 class="sub-tittle">Contact Me</h1>
 
-                <p><i class="fa-solid fa-paper-plane"></i> sharanpower581@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i> 6361449867</p>
+                <p><i class="fa-solid fa-paper-plane"></i> digvijaythorat855@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9112806323</p>
 
                 <div class="social-icons">
-                 <a href="https://fa-facebook.com"><i class="fa-brands fa-facebook"></i></a>
-                 <a href=""><i class="fa-brands fa-instagram"></i></a>
 
-                <a href="https://wa.me/916361449867?text=Hello%20Sharana,%20I%20saw%20your%20DevOps%20portfolio.%20Can%20you%20share%20more%20details%20about%20your%20experience?" target="_blank">
-                <i class="fa-brands fa-whatsapp"></i>
-                </a>
+                    <!-- GitHub -->
+                    <a href="https://github.com/digvijay0804" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    </a>
 
-                 <a href=""><i class="fa-brands fa-twitter"></i></a>
-             </div>   
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/digvijaythorat0804/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                    </a>
 
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/_digvijay_2004" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/9112806323?text=Hello%20Digvijay,%20I%20visited%20your%20portfolio." target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                
+                </div>
             </div>
 
 
@@ -334,20 +342,20 @@ Terraform | Ansible | Linux
     </div>
 
     <div class="copyright">
-     <p>© 2026 Sharan Basava | DevOps Engineer | Built with ❤️</p>
+     <p>© 2026 Digvijay Thorat | Cloud & DevOps Engineer | Built with ❤️</p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
 <script>
 (function(){
-emailjs.init("mq2MMmlmZrEyMf7QV");
+emailjs.init("1U7qlq5KO12UTu5nV");
 })();
 
 document.getElementById("contact-form").addEventListener("submit", function(e){
 e.preventDefault();
 
-emailjs.send("service_kasp2bd","template_02s3741",{
+emailjs.send("service_bxstyoi","template_f87tuv9",{
 name: document.querySelector('input[name="Name"]').value,
 email: document.querySelector('input[name="email"]').value,
 message: document.querySelector('textarea[name="Message"]').value
