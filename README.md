@@ -5,10 +5,10 @@ Welcome to my personal Cloud & DevOps portfolio. This portfolio showcases my tec
 ## 🌐 Live Website
 
 **GitHub Pages:**
-https://your-github-pages-link
+https://github.com/digvijay0804/Digvijay-portfolio
 
 **AWS EC2 Deployment:**
-http://your-ec2-public-ip
+http://digvijay-portfolio0804.s3-website.ap-south-1.amazonaws.com
 
 ---
 
